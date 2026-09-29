@@ -70,6 +70,8 @@ html, body {
   height: 150px;
   width: auto;
   border-radius: 6px;
+  pointer-events: none;  
+  -webkit-touch-callout: none;
 }
 
 /* Navbar */
@@ -131,7 +133,7 @@ html, body {
 /* Content */
 .content {
   width: 100%;
-  color: black;
+  color: #292846;
 }
 
 /* Pages */
@@ -187,12 +189,13 @@ html, body {
 
 .ctitle{
   font-size: 40px;
-
+  color: #292846;
   margin-top: 8vh;
 }
 
 .csubtitle{
   font-size: auto;
+  color: #292846;
   margin-top: 50px;
   font-style: oblique bold;
 
@@ -370,4 +373,10 @@ html, body {
 
 * {
   -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Safari */
+  -moz-user-select: none;      /* Old versions of Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;  
+  -webkit-user-drag: none;
 }
