@@ -91,10 +91,12 @@ html, body {
 
 /* Nav links group */
 .nav-links {
+    background-color: darkgray;
   display: flex;
   gap: 10px;
 
 }
+
 
 /* Normal nav buttons */
 .button {
@@ -208,7 +210,10 @@ html, body {
 /* ------------ MOBILE RESPONSIVE ADJUSTMENTS ------------ */
 @media (max-width: 700px) {
 
-
+  .button:hover {
+    background-color: #292846;
+    color: white;
+  }
 
   /* Show hamburger, collapse links */
   .hamburger {

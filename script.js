@@ -1,4 +1,4 @@
-//when load
++//when load
 window.addEventListener("load", showPage);
 window.addEventListener("load", () => {
   const card = document.querySelector(".cardname");
